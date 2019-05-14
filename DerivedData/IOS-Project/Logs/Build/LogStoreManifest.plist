@@ -93,6 +93,35 @@
 			<key>uniqueIdentifier</key>
 			<string>B78FABDF-7C7F-4A60-A9C3-46A3E1010240</string>
 		</dict>
+		<key>BA5FBCCA-112F-4404-9F04-FF786453E44D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BA5FBCCA-112F-4404-9F04-FF786453E44D.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>IOS-Project project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>IOS-Project</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build IOS-Project</string>
+			<key>timeStartedRecording</key>
+			<real>579518203.37533104</real>
+			<key>timeStoppedRecording</key>
+			<real>579518205.64538205</real>
+			<key>title</key>
+			<string>Build IOS-Project</string>
+			<key>uniqueIdentifier</key>
+			<string>BA5FBCCA-112F-4404-9F04-FF786453E44D</string>
+		</dict>
 	</dict>
 </dict>
 </plist>
