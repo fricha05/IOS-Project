@@ -12,6 +12,7 @@
 		EC740F26228AAFD60022DB15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC740F24228AAFD60022DB15 /* Main.storyboard */; };
 		EC740F28228AAFDF0022DB15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC740F27228AAFDF0022DB15 /* Assets.xcassets */; };
 		EC740F2B228AAFDF0022DB15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC740F29228AAFDF0022DB15 /* LaunchScreen.storyboard */; };
+		ECC24C9C22A554B900B4161C /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC24C9B22A554B900B4161C /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		EC740F27228AAFDF0022DB15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC740F2A228AAFDF0022DB15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC740F2C228AAFDF0022DB15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC24C9B22A554B900B4161C /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				EC740F20228AAFD60022DB15 /* AppDelegate.swift */,
 				EC740F22228AAFD60022DB15 /* ViewController.swift */,
+				ECC24C9B22A554B900B4161C /* Profile.swift */,
 				EC740F24228AAFD60022DB15 /* Main.storyboard */,
 				EC740F27228AAFDF0022DB15 /* Assets.xcassets */,
 				EC740F29228AAFDF0022DB15 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC740F23228AAFD60022DB15 /* ViewController.swift in Sources */,
+				ECC24C9C22A554B900B4161C /* Profile.swift in Sources */,
 				EC740F21228AAFD60022DB15 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
