@@ -11,35 +11,36 @@ import UIKit
 class Profile: UIViewController {
     
     @IBOutlet weak var profilePic: UIImageView!
-    var editable = false;
+    var editable: Bool!
     @IBOutlet weak var nameField: UITextField!
     @IBOutlet weak var descriptionField: UITextView!
     @IBOutlet weak var localizationField: UITextField!
+    @IBOutlet weak var playedGamesField: UITextView!
     @IBOutlet weak var editButton: UIBarButtonItem!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        editable = false
         profilePic.layer.borderWidth = 1
         profilePic.layer.masksToBounds = false
         profilePic.layer.borderColor = UIColor.black.cgColor
         profilePic.layer.cornerRadius = profilePic.frame.height/2
         profilePic.clipsToBounds = true
+        isEditable()
         
     }
     
     @IBAction func onClick(_ sender: Any) {
         editable = !editable
         editButton.title = editable ? "Done" : "Edit"
+        isEditable()
         
-        if(editable){
-            nameField.isUserInteractionEnabled = true
-            descriptionField.isUserInteractionEnabled = true
-            localizationField.isUserInteractionEnabled = true
-        }
-        else{
-            nameField.isUserInteractionEnabled = false
-            descriptionField.isUserInteractionEnabled = false
-            localizationField.isUserInteractionEnabled = false
-        }
+    }
+    
+    func isEditable(){
+        nameField.isUserInteractionEnabled = editable
+        descriptionField.isUserInteractionEnabled = editable
+        localizationField.isUserInteractionEnabled = editable
+        localizationField.isUserInteractionEnabled = editable
     }
 }
