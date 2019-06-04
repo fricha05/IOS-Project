@@ -11,6 +11,11 @@ import UIKit
 class Profile: UIViewController {
     
     @IBOutlet weak var profilePic: UIImageView!
+    var editable = false;
+    @IBOutlet weak var nameField: UITextField!
+    @IBOutlet weak var descriptionField: UITextView!
+    @IBOutlet weak var localizationField: UITextField!
+    @IBOutlet weak var editButton: UIBarButtonItem!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,5 +24,22 @@ class Profile: UIViewController {
         profilePic.layer.borderColor = UIColor.black.cgColor
         profilePic.layer.cornerRadius = profilePic.frame.height/2
         profilePic.clipsToBounds = true
+        
+    }
+    
+    @IBAction func onClick(_ sender: Any) {
+        editable = !editable
+        editButton.title = editable ? "Done" : "Edit"
+        
+        if(editable){
+            nameField.isUserInteractionEnabled = true
+            descriptionField.isUserInteractionEnabled = true
+            localizationField.isUserInteractionEnabled = true
+        }
+        else{
+            nameField.isUserInteractionEnabled = false
+            descriptionField.isUserInteractionEnabled = false
+            localizationField.isUserInteractionEnabled = false
+        }
     }
 }
