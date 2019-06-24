@@ -41,6 +41,6 @@ class Profile: UIViewController {
         nameField.isUserInteractionEnabled = editable
         descriptionField.isUserInteractionEnabled = editable
         localizationField.isUserInteractionEnabled = editable
-        localizationField.isUserInteractionEnabled = editable
+        playedGamesField.isUserInteractionEnabled = editable
     }
 }

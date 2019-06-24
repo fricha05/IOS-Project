@@ -12,6 +12,9 @@
 		EC740F26228AAFD60022DB15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC740F24228AAFD60022DB15 /* Main.storyboard */; };
 		EC740F28228AAFDF0022DB15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC740F27228AAFDF0022DB15 /* Assets.xcassets */; };
 		EC740F2B228AAFDF0022DB15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC740F29228AAFDF0022DB15 /* LaunchScreen.storyboard */; };
+		EC9838D722C1149B003DB385 /* ReadJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9838D622C1149B003DB385 /* ReadJson.swift */; };
+		EC9838D922C11678003DB385 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9838D822C11678003DB385 /* Event.swift */; };
+		EC9838DB22C11AAF003DB385 /* EventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9838DA22C11AAF003DB385 /* EventsTableViewController.swift */; };
 		ECC24C9C22A554B900B4161C /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC24C9B22A554B900B4161C /* Profile.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +26,9 @@
 		EC740F27228AAFDF0022DB15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC740F2A228AAFDF0022DB15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC740F2C228AAFDF0022DB15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC9838D622C1149B003DB385 /* ReadJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadJson.swift; sourceTree = "<group>"; };
+		EC9838D822C11678003DB385 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		EC9838DA22C11AAF003DB385 /* EventsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsTableViewController.swift; sourceTree = "<group>"; };
 		ECC24C9B22A554B900B4161C /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,9 +66,12 @@
 				EC740F22228AAFD60022DB15 /* ViewController.swift */,
 				ECC24C9B22A554B900B4161C /* Profile.swift */,
 				EC740F24228AAFD60022DB15 /* Main.storyboard */,
+				EC9838DA22C11AAF003DB385 /* EventsTableViewController.swift */,
 				EC740F27228AAFDF0022DB15 /* Assets.xcassets */,
 				EC740F29228AAFDF0022DB15 /* LaunchScreen.storyboard */,
 				EC740F2C228AAFDF0022DB15 /* Info.plist */,
+				EC9838D622C1149B003DB385 /* ReadJson.swift */,
+				EC9838D822C11678003DB385 /* Event.swift */,
 			);
 			path = "IOS-Project";
 			sourceTree = "<group>";
@@ -140,7 +149,10 @@
 			files = (
 				EC740F23228AAFD60022DB15 /* ViewController.swift in Sources */,
 				ECC24C9C22A554B900B4161C /* Profile.swift in Sources */,
+				EC9838DB22C11AAF003DB385 /* EventsTableViewController.swift in Sources */,
 				EC740F21228AAFD60022DB15 /* AppDelegate.swift in Sources */,
+				EC9838D722C1149B003DB385 /* ReadJson.swift in Sources */,
+				EC9838D922C11678003DB385 /* Event.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
